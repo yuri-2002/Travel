@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap');
+
+body{
+	width: 1340px;
+
+}
+.main{
+	height: 100vh;
+	background-size: cover;
+	background-image: url('https://www.planetware.com/photos-large/SEY/best-islands-maldives.jpg');
+	position: relative;
+
+}
+.logo{
+	display: inline;
+}
+.logo span{
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+	float: left;
+	margin-left: 10px;
+	letter-spacing: 2px;
+	margin-top: 5px;
+}
+nav{
+	width: 1340px;
+}
+nav ul{
+	list-style: none;
+	margin-left: 850px;
+}
+nav ul li{
+	width: 80px;
+	list-style-type: none;
+	float: left;
+	color: cyan;
+	text-align: center;
+	padding: 10px;
+}
+nav ul li a{
+	padding-bottom: 5px;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+	color: #fff;
+}
+
+nav ul li:hover{
+	background-color: rgba(0, 0, 0, .2);
+	border-bottom: 2px  solid cyan;
+	transition: 0.3s;
+}
+
+.main .mal{
+	position: absolute;
+	width: 500px;
+	height: 330px;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-right: none;
+	top: 220px;
+	left: 100px;
+	box-shadow:-2px 2px 6px rgba(0, 0, 0, .5);
+	text-align: center;
+	color: #fff;
+	
+}
+.main .mal span{
+	color:#fff;
+}
+.main .mal h2{	
+	font-size: 30px;
+	color: #000;
+}
+.main .mal p{	
+	font-size: 18px;
+	letter-spacing: 1.2px;
+	line-height: 1.5;
+	text-align: justify;
+	padding-left: 20px;
+}
+.main .mal p::first-letter{
+	font-size: 36px;
+	color: #000;
+}
+.main .vd-gif{
+	/*position: absolute;*/
+	float: right;
+	min-height: 90vh;
+	width: 600px;
+	background-image: url(https://static.thehoneycombers.com/wp-content/uploads/sites/2/2017/05/luxury-holiday-vacation-the-residence-resort-the-maldives-relax-MAIN-IMAGE.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 100%;
+	color: #fff;
+	position: absolute;
+	top: 30px;
+	right: 40px;
+	border: 1px solid transparent;
+	border-radius: 20px;
+}
+/*Main two*/
+.maintwo{
+	height: 100vh;
+	position: relative;
+}
+.maintwo .mal{
+	background-color:rgba(211, 229, 230, .3);
+	font-family: 'Pacifico', cursive;
+	width: 500px;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	font-weight: 100;
+	float: left;
+	position: absolute;
+	left: 200px;
+	text-align: right;
+	border-bottom-left-radius: 10px;
+}
+.gallery{
+	width: 600px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.maintwo .img-gallery{
+	width: 600px;
+	display: inline;
+}
+.maintwo .img-gallery img{
+	width:140px;
+	height: 90px;
+	float: left;
+	margin:250px 0px 0 10px;
+}
+
+.maintwo .img-gallery1 img{
+	float: left;
+	width:140px;
+	height: 90px;
+	margin:5px 0px 0 10px;
+}
+.maintwo .img-frame{
+	margin-top: -400px;	
+	float: right;
+	width: 700px;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-image: url('https://www.planetware.com/photos-large/SEY/best-islands-palawan.jpg');
+}
+.para{
+	margin-top: -200px;
+	width: 1340px;
+	height: 200px;
+	background-color: #1e1e1e;
+	color: #fff;
+	position: relative;
+}
+.para h1{
+	width: 200px;
+	margin-left: 100px;
+	line-height: 2;
+	text-align: center;
+}
+.para p{
+	/*background-position: right;*/
+	width: 900px;
+	position: absolute;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	right: 10px;
+	top: 0px;
+	left: 370px;
+}
+.san{
+	width: 1340px;
+	height:500px;
+	position: relative;
+}
+.san .san-img img{
+	float: left;
+	width: 650px;
+	height: 500px;
+}
+.san .san-img2 img{
+	float: right;
+	width: 530px;
+	height: 400px;
+}
+.san .san-para {
+	position: absolute;
+	float: left;
+	width: 400px;
+	height: 400px;
+	background-color: rgba(173, 245, 248, .4);
+	top: 50px;
+	left: 590px;
+}
+.san .san-para p{
+	letter-spacing: 2;
+	line-height: 1.5;
+}
+.san .san-para p::first-letter{
+	font-size: 40px;
+	color: blue;
+}
+.san .san-book{
+	width: 700px;
+	height: 90px;
+	background-color: #000;
+	margin-left: 40px;
+	color: #fff;
+	position: relative;
+}
+.san .san-book h1{
+	margin-left: 10px;
+}
+.san .san-book .san-box{
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	left: 170px;
+	top: 25px;
+
+}
+.san .san-book .san-box:focus{
+	outline: none;
+}
+.san .san-book span,.san .san-book h4{
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	position: absolute;
+	top: 25px;
+	left: 280px;
+	line-height: 2;
+	text-align: center;
+}
+.san .san-book h4{
+	position: absolute;
+	left: 390px;
+	top: 5px;
+}
+.san .san-book .chk{
+	width: 180px;
+	height: 50px;
+	background-color: #482ff7;
+	position: absolute;
+	top: 13px;
+	right: 20px;
+	font-size: 12px;
+	border-radius: 10px;
+}
+.san .san-book .chk a{
+	text-decoration: none;
+	color: #fff;
+}
+.san .san-book .chk h3{
+		color: #fff;
+		letter-spacing: 1px;
+		padding-left: 10px;
+		font-family: 'Pacifico', cursive;
+		position: relative;
+		top: -3px;
+}
+.san .san-book .chk h5{
+	padding-left: 20px;
+	top: 18px;
+	position: absolute;
+	font-size: 11px;
+}
+
+/*gal*/
+.gal{
+	width: 1340px;
+	background-color: pink;
+}
+.gal .gal-img{
+	margin:10px 0 0 150px ;
+
+}
+.gal img{
+	width: 140px;
+	height: 140px;
+	float: left;
+	border: 1px solid #000;
+	/*margin: 0 3px;*/
+	/*display: inline;*/
+}
+
+/*card*/
+.card{
+	width: 1340px;
+	height: 540px;
+	background-image: url(https://www.planetware.com/photos-large/SEY/best-islands-cook-islands.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.card{
+	position: relative;
+
+}
+.card .head{
+	text-align: center;
+	color: #fafaf6;
+}
+.card .head h2{
+	padding-top: 4px;
+	font-size: 30px;
+	display: inline;
+	font-family: 'Pacifico', cursive;
+	color: #000;
+}
+.card .card-img img{
+	display: inline;
+	float: left;
+	width: 320px;
+	height: 380px;
+	margin:30px 50px;
+}
+.card .card-img p{
+	display: block;
+}
+.card .card-img img:hover p{
+	
+	transition: .6s;
+}
+.container{
+	width: 1320px;
+	height: 500px;
+}
+.container .container-box{
+	float: left;
+	width: 300px;
+	height: 350px;
+	margin:10px 10px 0 20px;
+	text-align: center;
+	color: #000;
+	/*background-image: url(https://www.freetour.com/images/tours/22913/online-tour-barcelona-discover-barcelona-from-your-home-11.jpg);*/
+	background-repeat: no-repeat;
+	/*background-size: contain;*/
+	position: relative;
+}
+.container .container-box img{
+	width: 300px;
+	height: 300px;
+}
+.container .container-box .box{
+	width: 300px;
+	height: 300px;
+	margin-top: -270px;
+	background-color: cyan;
+}
+.container .container-box i{
+	width: 50px;
+	height: 33px;
+	font-size: 36px;
+	/*margin-top: 10px;*/
+	border-radius: 40%;
+	color: cyan;
+}
+.container .container-box h2{
+	color: #fff;
+}
+.container .container-box p{
+	color: #fff;
+	display: none;
+	background-color: rgba(0, 0, 0, .7);
+}
+.container .container-box a{
+	text-decoration: none;
+	color: #000;
+	width: 80px;
+	height: 30px;
+	display: inline-block;
+	margin-top: 10px;
+	padding-top:12px ;
+	border-radius: 7px;
+
+}
+.container .container-box:hover p{
+	display: block;
+	text-align: center;
+	transition: 1s;
+
+}
+.container .container-box:hover a{
+	display: none;
+}
+
+
+/*vd*/
+.vd{
+	width: 1340px;
+	height: 500px;
+	position: relative;
+	/*background-color: #eee;*/
+}
+.vd .vd-gifs{
+	float: left;
+	min-height: 100vh;
+	width: 600px;
+	background-image: url(https://cdn.dribbble.com/users/149398/screenshots/4161554/026-roadtrip.gif);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	color: #fff;
+	position: absolute;
+	top: 0;
+}
+.vd .vd-form{
+	float: left;
+	width: 370px;
+	height: 410px;
+	background-color:rgba(0, 255, 255, .4);
+	position: absolute;
+	left: 450px;
+}
+.vd .vd-form h2{
+	text-align: center;
+	padding-top: 10px;
+}
+.vd .vd-form label{
+	font-size: 20px;
+	line-height: 2;
+	margin-left: 30px;
+}
+
+.vd .vd-form .form-control{
+	width: 300px;
+	height: 24px;
+	display: block;
+	margin-left: 30px;
+	border: 0;
+}
+.vd .vd-form .form-control:focus{
+	outline: none;
+}
+.vd .vd-form .form-search{
+	text-align: center;
+	margin-top: 27px;
+}
+.vd .vd-form .form-search a{
+	padding: 7px;
+	width: 70px;
+	height: 40px;
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #1e1e1e;
+	color: #fff;
+	border-radius: 5px;
+}
+.vd .vd-form .form-search a:hover{
+	background-color: #ccc;
+	color: #000;
+	transition: .4s;
+}
+
+/*form-about*/
+.vd .form-about{
+	width: 520px;
+	height: 493px;
+	background-image: url("https://cdn2.wanderlust.co.uk/media/1115/articles-a-pretty-picture-is-not-enough-it-needs-to-be-original-photo-mike-baird1.jpg?anchor=center&mode=crop&width=1200&height=0&rnd=131455539260000000");
+	float: right;
+}
+.vd .form-about h2{
+	text-align: center;
+}
+
+
+.vd .form-about .form-about-icon{
+	margin-left: 20px;
+	width: 230px;
+	height:170px;
+	/*background-color: pink;*/
+	display: inline-block;
+	margin-bottom: 15px;
+}
+.vd .form-about .form-about-icon p{
+	display: inline;
+	margin-left: 20px;
+	color: #000;
+	background-color: rgba(255,255,255, .6);
+}
+.vd .form-about-icon i{
+	font-size: 26px;
+	color: darkcyan;
+}
+.hotel{
+	width: 1340px;
+	height: 550px;
+	/*background-color: #ccc;*/
+	position: relative;
+}
+.hotel h2{
+	text-align: center;
+}
+.hotel .hotel-frame{
+	width: 1270px;
+	height: 550px;
+	/*background-color: lightblue;*/
+	background-position: center;
+	margin-left: 50px;
+	display: flex;
+	justify-content: center;
+}
+.hotel .hotel-frame .hot span{
+	font-size: 23px;
+	padding-left: 140px;
+	color: #fff;
+}
+.hotel .hotel-frame .hot p{
+	background-color: rgba(255, 255, 255, .4);
+	font-family: 'Pacifico', cursive;
+}
+.hotel .hotel-frame .hot span h1,.hot a{
+	padding-left: 150px;
+	color: cyan;
+}
+.hot-book{
+	position: relative;
+}
+.hot a{
+	text-decoration: none;
+	background-color: #000;
+	padding: 20px 177.27px;
+	position: absolute;
+	bottom: 0;
+}
+.hotel .hotel-frame .hot .hot-book{
+	width: 430px;
+	background-repeat: no-repeat;
+	background-image: url("https://pbs.twimg.com/media/D0oTdpOWkAIru9F.jpg");
+	height: 500px;
+	float: left;
+	background-size: auto;
+}
+.hotel .hotel-frame .hot2 img{
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+.hotel .hotel-frame .hot2 img:hover{
+	transition: .9s;
+	opacity: .6;
+}
+.hotel .hotel-para{
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 400px;
+	/*background-color: #eee;*/
+	position: absolute;
+}
+.sub{
+	width: 1340px;
+	height: 250px;
+	background-color: #000;
+	justify-content: center;
+	justify-items: center;
+	display: flex;
+	text-align: center;
+
+}
+.sub .subscribe{
+	width: 500px;
+	height: 250px;
+	/*background-color: pink;*/
+	bottom: 10px;
+	line-height: 2;
+	color: #fff;
+}
+.sub .subscribe input{
+	width: 300px;
+	height: 30px;
+	border: 3px solid #ccc;
+}
+.sub .subscribe .btn{
+	margin-top: 10px;
+	background-color: #ccc;
+	padding: 5px;
+	
+}
+.sub .subscribe input:focus{
+	outline: none;
+	
+}
